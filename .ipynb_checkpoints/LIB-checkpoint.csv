@@ -1,0 +1,13 @@
+book_id,source_file_path,file_name,raw_title,author,chap_regex
+0,Books/Text Files/Atkinson1.txt,Atkinson1.txt,The Manager,Ron Atkinson,^(ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|THIRTEEN|FOURTEEN|FIFTEEN|SIXTEEN|SEVENTEEN|EIGHTEEN|NINETEEN|TWENTY|TWENTY\-ONE)$
+1,Books/Text Files/Atkinson2.txt,Atkinson2.txt,Que Sera Sera: Manchester United Under Dave Sexton and Ron Atkinson,Wayne Barton,"^(Old Hollywood|Que Sera, Sera|Challenges|Money, Money, Money|Money Spinner|Vision|Walk Through the Storm|Borrowed Time|On Good Terms)$"
+2,Books/Text Files/Busby1.txt,Busby1.txt,Sir Matt Busby: The Definitive Biography,Patrick Barclay,^CHAPTER\s(?:ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|THIRTEEN|FOURTEEN|FIFTEEN)$
+3,Books/Text Files/Busby2.txt,Busby2.txt,A Strange Kind of Glory,Eamon Dunphy,nan
+4,Books/Text Files/Charlton1.txt,Charlton1.txt,1966: My World Cup Story,Sir Bobby Charlton,^(1[0-7]|[1-9])\.|(Prologue|Epilogue)$
+5,Books/Text Files/Charlton2.txt,Charlton2.txt,My Manchester United Years,Sir Bobby Charlton,^(?:[1-9]|1[0-9]|2[0-9]|PROLOGUE|EPILOGUE)$
+6,Books/Text Files/Ferguson1.txt,Ferguson1.txt,This Is The One,Daniel Taylor,"^\d{1,2}\.\d{1,2}\.\d{2}$"
+7,Books/Text Files/Ferguson2.txt,Ferguson2.txt,Football - Bloody Hell!: The Biography of Alex Ferguson,Patrick Barclay,^(NO DOUBT ABOUT IT|IN THE BEGINNING|EAST STIRLINGSHIRE|SAINTS ALIVE: THE LOVE STREET YEARS|ABERDEEN|MANCHESTER UNITED: EARLY DAYS|UNITED: STEPS TO GREATNESS|UNITED: APRÈS MOI LE TREBLE|UNITED: THE ENCORE|UNITED: RONALDO AND ROONEY|THE LEGACY)$
+8,Books/Text Files/Ferguson3.txt,Ferguson3.txt,My Autobiography,Sir Alex Ferguson,^(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|twenty[- ]one|twenty[- ]two|twenty[- ]three|twenty[- ]four|twenty[- ]five)
+9,Books/Text Files/Keane.txt,Keane.txt,The Second Half,Roy Keane,^(ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE)$
+10,Books/Text Files/Robson.txt,Robson.txt,Robbo - My Autobiography,Bryan Robson,^(1[0-7]|[1-9])\.|(INTRODUCTION)$
+11,Books/Text Files/Scholes.txt,Scholes.txt,My Story,Paul Scholes,(?<!\d)(?:1[0-8]|[1-9])(?!\d)
